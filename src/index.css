@@ -1,0 +1,223 @@
+@import "tailwindcss";
+
+/* -------------------------------------------------------------
+   MontuCode Retail Themes System (نظام ثيمات محلات ومخازن الملابس)
+   Includes:
+   - luxury-light (البوتيك العصري الفاتح - ناصع وعالي التباين)
+   - dark (الوضع الليلي الاحترافي - Midnight Slate)
+   - royal-navy (كحلي ملكي راقي مع لمسات ذهبية)
+   - emerald (أخضر زمردي فاخر لمتاجر الأزياء)
+------------------------------------------------------------- */
+
+/* 1. Theme Luxury Light (البوتيك العصري الفاتح) */
+html.theme-luxury-light,
+body.theme-luxury-light {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+body.theme-luxury-light .bg-slate-950 {
+  background-color: #f8fafc !important;
+}
+
+body.theme-luxury-light .bg-slate-900 {
+  background-color: #ffffff !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06), 0 1px 2px -1px rgba(0, 0, 0, 0.06);
+}
+
+body.theme-luxury-light .bg-slate-900\/50,
+body.theme-luxury-light .bg-slate-900\/60,
+body.theme-luxury-light .bg-slate-900\/70 {
+  background-color: #f1f5f9 !important;
+}
+
+body.theme-luxury-light .bg-slate-800 {
+  background-color: #f1f5f9 !important;
+  color: #1e293b !important;
+}
+
+body.theme-luxury-light .bg-slate-800\/20,
+body.theme-luxury-light .bg-slate-800\/30,
+body.theme-luxury-light .bg-slate-800\/40 {
+  background-color: #e2e8f0 !important;
+}
+
+body.theme-luxury-light .border-slate-800,
+body.theme-luxury-light .border-slate-700 {
+  border-color: #e2e8f0 !important;
+}
+
+body.theme-luxury-light .border-slate-800\/80 {
+  border-color: #cbd5e1 !important;
+}
+
+body.theme-luxury-light .text-slate-100,
+body.theme-luxury-light .text-slate-200 {
+  color: #0f172a !important;
+}
+
+body.theme-luxury-light .text-slate-300 {
+  color: #1e293b !important;
+}
+
+body.theme-luxury-light .text-slate-400 {
+  color: #475569 !important;
+}
+
+body.theme-luxury-light .text-slate-500 {
+  color: #64748b !important;
+}
+
+body.theme-luxury-light input,
+body.theme-luxury-light select,
+body.theme-luxury-light textarea {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+body.theme-luxury-light input:focus,
+body.theme-luxury-light select:focus,
+body.theme-luxury-light textarea:focus {
+  border-color: #f59e0b !important;
+  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.2) !important;
+}
+
+body.theme-luxury-light .hover\:bg-slate-800:hover,
+body.theme-luxury-light .hover\:bg-slate-900:hover {
+  background-color: #f1f5f9 !important;
+}
+
+body.theme-luxury-light header,
+body.theme-luxury-light aside {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+}
+
+body.theme-luxury-light .divide-slate-800 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #e2e8f0 !important;
+}
+
+body.theme-luxury-light tr:hover {
+  background-color: rgba(241, 245, 249, 0.7) !important;
+}
+
+body.theme-luxury-light .bg-emerald-950\/30,
+body.theme-luxury-light .bg-emerald-950\/40,
+body.theme-luxury-light .bg-emerald-950\/60 {
+  background-color: #ecfdf5 !important;
+  border-color: #a7f3d0 !important;
+}
+
+body.theme-luxury-light .bg-rose-950\/30,
+body.theme-luxury-light .bg-rose-950\/40,
+body.theme-luxury-light .bg-rose-950\/60 {
+  background-color: #fff1f2 !important;
+  border-color: #fecdd3 !important;
+}
+
+body.theme-luxury-light .bg-amber-950\/30,
+body.theme-luxury-light .bg-amber-950\/40 {
+  background-color: #fffbeb !important;
+  border-color: #fde68a !important;
+}
+
+/* 2. Theme Royal Navy & Gold (الكحلي الملكي الفاخر) */
+html.theme-royal-navy,
+body.theme-royal-navy {
+  background-color: #060e22 !important;
+  color: #f8fafc !important;
+}
+
+body.theme-royal-navy .bg-slate-950 {
+  background-color: #060e22 !important;
+}
+
+body.theme-royal-navy .bg-slate-900 {
+  background-color: #0d1b3e !important;
+  border-color: #1a2f68 !important;
+}
+
+body.theme-royal-navy .border-slate-800 {
+  border-color: #1a2f68 !important;
+}
+
+body.theme-royal-navy .border-slate-700 {
+  border-color: #243d82 !important;
+}
+
+body.theme-royal-navy .bg-slate-800 {
+  background-color: #142555 !important;
+}
+
+body.theme-royal-navy header,
+body.theme-royal-navy aside {
+  background-color: #0a1532 !important;
+  border-color: #1a2f68 !important;
+}
+
+body.theme-royal-navy input,
+body.theme-royal-navy select,
+body.theme-royal-navy textarea {
+  background-color: #060e22 !important;
+  border-color: #1a2f68 !important;
+  color: #f8fafc !important;
+}
+
+/* 3. Theme Emerald Boutique (الزمردي الراقي) */
+html.theme-emerald,
+body.theme-emerald {
+  background-color: #021a15 !important;
+  color: #f8fafc !important;
+}
+
+body.theme-emerald .bg-slate-950 {
+  background-color: #021a15 !important;
+}
+
+body.theme-emerald .bg-slate-900 {
+  background-color: #062f27 !important;
+  border-color: #0b493d !important;
+}
+
+body.theme-emerald .border-slate-800 {
+  border-color: #0b493d !important;
+}
+
+body.theme-emerald .border-slate-700 {
+  border-color: #106353 !important;
+}
+
+body.theme-emerald .bg-slate-800 {
+  background-color: #0b4337 !important;
+}
+
+body.theme-emerald header,
+body.theme-emerald aside {
+  background-color: #04241e !important;
+  border-color: #0b493d !important;
+}
+
+body.theme-emerald input,
+body.theme-emerald select,
+body.theme-emerald textarea {
+  background-color: #021a15 !important;
+  border-color: #0b493d !important;
+  color: #f8fafc !important;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
+}

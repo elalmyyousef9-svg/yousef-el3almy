@@ -1,0 +1,6 @@
+{
+  "name": "نظام إدارة مخزون ومحاسبة الملابس (MontuCode)",
+  "description": "تطبيق متكامل لمخزون الملابس والمحاسبة وفق وثيقة MontuCode: تسعير FIFO، تحويلات الترانزيت، البيع بالسالب المؤقت مع التسوية التلقائية، الجرد الأعمى، والملخص المحاسبي اليومي والقيود.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
